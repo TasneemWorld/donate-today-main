@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.primary-btn button{
+    border: none;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 3px;
+    background: #FF5959;
+}
+section{
+    margin: 0 auto;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+.section-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+}
+.common-text-style{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+
+color: #B3B3B3;
+}
+/* header styles */
+header{
+    background: lightblue;
+    height: 100vh;
+    background-image: url('images/donation13.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+    height: 100vh;
+}
+.banner-title{
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 65px;
+}
+.banner-p{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.banner{
+    text-align: center;
+    padding: 150px 250px;
+}
+
+
+
+/* Donate amount styles */
+.donate-amount{
+    margin-top: 130px;
+}
+/* .donate-amount p,h1{
+    text-align: center;
+    
+} */
+.donate-amount .section-ti-des{
+    text-align: center;
+}
+.donate-amount .section-ti-des p{
+    margin-top: 20px;
+    padding: 0 300px;
+}
+.donate-amount p{
+    margin-bottom: 20px;
+}
+.select-donate-amount{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+    
+}
+.select-donate-amount .amount{
+    padding: 30px 10px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    text-align: center;
+    color: #707070;
+    max-width: 136px;
+    max-height: 123px;
+
+}
+.amount h4{
+    font-weight: 600;
+    font-size: 20px;
+}
+.amount-color{
+    
+    border: 1px solid #FF5959;
+}
+.amount-color .tk200{
+    color: #FF5959;
+}
+.other-amount{
+    text-align: center;
+    padding: 0 300px;
+    margin-top: 60px;
+}
+.other-amount .divisor{
+    margin: -10px 110px;
+    border: 1px solid #DADADA;
+}
+.other-amount .primary-btn{
+    margin-top: 30px;
+}
+/* donate plane style */
+.donate-plane{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding:30px;
+    gap: 10px;
+}
+.donate-items{
+    background: skyblue;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+.donate-items p{
+    text-align: left;
+}
